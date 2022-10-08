@@ -1,7 +1,9 @@
 
 # sol documentation
 
-**In Progress**
+__**In Progress**__
+
+ - [Quickstart guide](quickstart.html)
 
 ## Components
 
