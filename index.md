@@ -7,6 +7,8 @@ __**In Progress**__
 
 ## Components
 
+ - [Components Reference](./components-reference.html)
+
 ### YAML format
 
 ## Data
