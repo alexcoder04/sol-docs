@@ -9,12 +9,28 @@
 
 `Components.Base.Canvas`
 
+A canvas to draw on.
+
  - `PosX`
  - `PosY`
  - `Width`
  - `Height`
 
+### InputField
+
+Text input box (with blinking cursor).
+
+`Components.Base.InputField`
+
+ - `PosX`
+ - `PosY`
+ - `Width`
+ - `Value` (updated as you type)
+ - `Color`
+
 ### Rectangle
+
+Just a rectangle.
 
 `Components.Base.Rectangle`
 
@@ -27,7 +43,9 @@
 
 ### TextField
 
-`Component.Base.Rectangle`
+Text box, can be used as a button as well.
+
+`Components.Base.Rectangle`
 
  - `PosX`
  - `PosY`
@@ -62,3 +80,7 @@ MyFunc1: |
         self.MyKey1 = "Hello World"
     end
 ```
+
+## Useful resources
+
+ - [YML tutorial (external link)](https://www.educative.io/blog/yaml-tutorial)

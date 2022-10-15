@@ -9,7 +9,9 @@ __**In Progress**__
 
  - [Components Reference](./components-reference.html)
 
-### YAML format
+## Library Functions
+
+ - [Library](./library.html)
 
 ## Data
 
