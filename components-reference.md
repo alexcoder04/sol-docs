@@ -1,7 +1,16 @@
 
 # Components Writing Reference
 
-## Default components and their available keys
+## Add components to the app
+
+`/app.lua`:
+
+```lua
+App:AddElement(Components.Base.Rectangle:new())
+App:AddElement(Components.Custom.HelloWorld:new())
+```
+
+## Default components and their keys
 
 ### Canvas
 
@@ -26,7 +35,7 @@ Text input box (with blinking cursor).
  - `PosY`
  - `Width`
  - `Value` (updated as you type)
- - `Color`
+ - `Color` (as three-value-array or library reference (`Lib.Colors.*`))
 
 ### Rectangle
 
@@ -38,8 +47,8 @@ Just a rectangle.
  - `PosY`
  - `Width`
  - `Height`
- - `Fill`
- - `Color`
+ - `Fill` (boolean, whether to fill the rectangle)
+ - `Color` (as three-value-array or library reference (`Lib.Colors.*`))
 
 ### TextField
 
@@ -49,11 +58,13 @@ Text box, can be used as a button as well.
 
  - `PosX`
  - `PosY`
- - `Label`
- - `Border`
- - `Color`
+ - `Label` (actual text)
+ - `Border` (boolean, whether to draw a border)
+ - `Color` (as three-value-array or library reference (`Lib.Colors.*`))
 
 ## Defining / Overwriting draw and update functions
+
+The `Update()` function should return a boolean. The screen is only redrawn on update if at least one component's `Update()` function returns `true`.
 
 *Example:*
 
@@ -62,6 +73,7 @@ Update: |
     if self.Label == "Hello" then
         self.Label = "Hello World"
     end
+    return true
 ```
 
 ## Defining own keys in custom components
