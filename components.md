@@ -1,5 +1,5 @@
 
-# Components Writing Reference
+# Components
 
 ## Add components to the app
 

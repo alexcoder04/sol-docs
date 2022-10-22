@@ -5,6 +5,8 @@
 
  - [Quickstart guide](quickstart.html)
  - [Conventions](./conventions.html)
+ - [Files](./files.html)
+ - [Metadata](./metadata.html)
 
 ## Library
 
@@ -13,7 +15,7 @@
 
 ## Components
 
- - [Components Reference](./components-reference.html)
+ - [Components Reference](./components.html)
 
 ## Data
 
@@ -30,12 +32,6 @@ This is variable data. It is just a Lua table that gets preserved between sessio
 ## Images
 
 *in progress*
-
-## Files
-
- - `app.lua`: Lua code for the application
- - `hooks.lua`: Defining [hooks](./hooks.html)
- - `init.lua`: Lua code that runs at application start
 
 ## Buiding your application
 
