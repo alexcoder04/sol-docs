@@ -13,7 +13,7 @@
 ## 3. Look around
 
  - I recommend using VS Cod(e/ium) for working on your project
- - Your main Lua code, like app logic, GUI components etc., is in `main.lua`
+ - Your main Lua code, like app logic, GUI components etc., is in `app.lua`
  - See [here](./files.html) for other optional files
  - Your GUI components are inside the `components/` folder
    - Every component has its own file
@@ -24,6 +24,15 @@
  - Other data is located in the `res/` folder
    - `res/img/` for images (they are compiled into the project and can be also accessed directly from Lua and components)
    - `res/data` for YAML-based static application data
- - ...
 
-__**This is a work in progress**__
+## 4. Compile your project
+
+Use either the interactive dialog (start `sol`, type `build` and follow the instructions) or the automated mode (`sol -a build <project-folder>`).
+
+Use [Luna](https://github.com/ndless-nspire/Luna) to create a `.tns` file or copy `out.lua` into the official TI software.
+
+You can also use make on Linux (`make build` creates a `.tns` file assuming you have Luna installed).
+
+## 5. Try it out!
+
+Load the `.tns` file onto you calculator, either using the official TI software or other tools.

@@ -13,6 +13,6 @@
 
 ```lua
 function Hooks:CharIn(c)
-    Lib.Debug:Print("pressed " .. tostring(c))
+    Lib.Debug.Print("pressed " .. tostring(c))
 end
 ```

@@ -60,6 +60,7 @@ Text box, can be used as a button as well.
  - `PosY`
  - `Label` (actual text)
  - `Border` (boolean, whether to draw a border)
+ - `FontSize` (7, 9, 10, 11, 12, 16, or 24)
  - `Color` (as three-value-array or library reference (`Lib.Colors.*`))
 
 ## Defining / Overwriting draw and update functions
