@@ -8,13 +8,13 @@
 ## 2. Create new project
 
  - Start `sol`
- - Type `new` for the command and follow the instructions for creating a new project
+ - Type `new` and follow the instructions for creating a new project
 
 ## 3. Look around
 
  - I recommend using VS Cod(e/ium) for working on your project
  - Your main Lua code, like app logic, GUI components etc., is in `app.lua`
- - See [here](./files.html) for other optional files
+ - See [here](./files.html) for other files
  - Your GUI components are inside the `components/` folder
    - Every component has its own file
    - They are written in YAML (easy-to-learn key-value language)
